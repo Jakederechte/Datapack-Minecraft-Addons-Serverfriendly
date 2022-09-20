@@ -10,5 +10,6 @@ tellraw @s ["","\n","\n","\n","\n","\n","\n","\n","\n","\n","\n","\n","\n","\n",
 
 function treeex:delete_scores
 function oreex:delete_scores
+tellraw @a {"text": "Hand Furnace unloaded", "color": "#CB0202"}
 
 tellraw @a {"text": "\nMinecraft Addons unloaded\n", "color": "#CB0202","bold":true,"underlined":true}

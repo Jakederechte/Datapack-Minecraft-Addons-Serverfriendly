@@ -4,6 +4,7 @@
 scoreboard objectives add mcaddons-menu dummy
 scoreboard players add treeex mcaddons-menu 0
 scoreboard players add oreex mcaddons-menu 0
+scoreboard players add hfurnace mcaddons-menu 0
 scoreboard players set tick mcaddons-menu 0
 scoreboard players add debug mcaddons-menu 0
 scoreboard players set change mcaddons-menu 0
