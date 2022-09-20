@@ -1,0 +1,18 @@
+#depends on "menu"-folder
+
+tellraw @s ["","\n","\n","\n",{"text":"-----------------------------------------------------","color":"white"},"\n","\n","     ",{"text":"Please select which functions should be active:","underlined":true,"color":"aqua"},"\n"]
+
+#treeex
+execute if score treeex mcaddons-menu matches 1 run tellraw @s ["",{"text":"          Tree Excavation  ","color":"white","hoverEvent":{"action":"show_text","contents":[{"text":"Adds an axe to the game that allows you to chop down entire trees at once","italic":true,"color":"dark_purple"}]}},{"text":"[","bold":true,"color":"white"},{"text":"✔","color":"dark_green","clickEvent":{"action":"run_command","value":"/function game:menu/treeex-disable"}},{"text":"]","bold":true,"color":"white"}]
+execute if score treeex mcaddons-menu matches 0 run tellraw @s ["",{"text":"          Tree Excavation  ","color":"white","hoverEvent":{"action":"show_text","contents":[{"text":"Adds an axe to the game that allows you to chop down entire trees at once","italic":true,"color":"dark_purple"}]}},{"text":"[","bold":true,"color":"white"},{"text":"❌","color":"dark_red","clickEvent":{"action":"run_command","value":"/function game:menu/treeex-enable"}},{"text":"]","bold":true,"color":"white"}]
+
+#oreex
+execute if score oreex mcaddons-menu matches 1 run tellraw @s ["",{"text":"          Ore Excavation  ","color":"white","hoverEvent":{"action":"show_text","contents":[{"text":"Adds an axe to the game that allows you to chop down entire trees at once","italic":true,"color":"dark_purple"}]}},{"text":"[","bold":true,"color":"white"},{"text":"✔","color":"dark_green","clickEvent":{"action":"run_command","value":"/function game:menu/oreex-disable"}},{"text":"]","bold":true,"color":"white"}]
+execute if score oreex mcaddons-menu matches 0 run tellraw @s ["",{"text":"          Ore Excavation  ","color":"white","hoverEvent":{"action":"show_text","contents":[{"text":"Adds an axe to the game that allows you to chop down entire trees at once","italic":true,"color":"dark_purple"}]}},{"text":"[","bold":true,"color":"white"},{"text":"❌","color":"dark_red","clickEvent":{"action":"run_command","value":"/function game:menu/oreex-enable"}},{"text":"]","bold":true,"color":"white"}]
+
+
+#debug
+execute if score debug mcaddons-menu matches 1 run tellraw @s ["",{"text":"\n          Debug mode  ","italic":true,"color":"white","hoverEvent":{"action":"show_text","contents":[{"text":"Markers are visible and delays are added","italic":true,"color":"dark_purple"}]}},{"text":"[","bold":true,"color":"white"},{"text":"✔","color":"dark_green","clickEvent":{"action":"run_command","value":"/function game:menu/debug-disable"}},{"text":"]","bold":true,"color":"white"}]
+execute if score debug mcaddons-menu matches 0 run tellraw @s ["",{"text":"\n          Debug mode  ","italic":true,"color":"white","hoverEvent":{"action":"show_text","contents":[{"text":"Markers are visible and delays are added","italic":true,"color":"dark_purple"}]}},{"text":"[","bold":true,"color":"white"},{"text":"❌","color":"dark_red","clickEvent":{"action":"run_command","value":"/function game:menu/debug-enable"}},{"text":"]","bold":true,"color":"white"}]
+
+tellraw @s ["",{"text":"                                                       Apply changes  ","color":"aqua"},{"text":"[","bold":true,"color":"white"},{"text":"✔","color":"dark_green","clickEvent":{"action":"run_command","value":"/function game:menu/loadpacks"}},{"text":"]","bold":true,"color":"white"},"\n",{"text":"-----------------------------------------------------","color":"white"}]
