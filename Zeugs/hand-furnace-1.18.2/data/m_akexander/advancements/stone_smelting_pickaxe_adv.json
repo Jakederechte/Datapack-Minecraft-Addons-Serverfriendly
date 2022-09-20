@@ -1,0 +1,14 @@
+
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "m_akexander:stone_smelting_pickaxe_recipe"
+            }
+        }
+    },
+    "rewards": {
+        "function": "m_akexander:stone_smelting_pickaxe"
+    }
+}
