@@ -9,5 +9,3 @@ give @s minecraft:spruce_sapling
 
 give @s minecraft:warped_fungus
 give @s minecraft:crimson_fungus
-
-give @s minecraft:crafting_table

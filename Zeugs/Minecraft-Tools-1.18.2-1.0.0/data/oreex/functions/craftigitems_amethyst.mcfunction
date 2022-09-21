@@ -11,4 +11,3 @@ give @s minecraft:diamond
 
 give @s minecraft:quartz
 
-give @s minecraft:crafting_table

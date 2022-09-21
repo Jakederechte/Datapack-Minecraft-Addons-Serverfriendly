@@ -13,12 +13,11 @@ execute if score treeex mcaddons-menu matches 0 run function treeex:delete_score
 execute if score oreex mcaddons-menu matches 1 run function oreex:load
 execute if score oreex mcaddons-menu matches 0 run function oreex:delete_scores
 
-execute if score hfurnace mcaddons-menu matches 1 run tellraw @a {"text": "Hand Furnace loadet", "color": "#00ff44"}
-execute if score hfurnace mcaddons-menu matches 0 run tellraw @a {"text": "Hand Furnace unloaded", "color": "#CB0202"}
-execute if score hfurnace mcaddons-menu matches 1 run schedule function hfurnace:1s_tick 1s
+execute if score hfurnace mcaddons-menu matches 1 run function hfurnace:load
+execute if score hfurnace mcaddons-menu matches 0 run function hfurnace:delete_scores
 
 
-execute if score debug mcaddons-menu matches 1 run tellraw @s {"text": "Debug mode enabled\n","italic":true, "color": "#00ff44"}
-execute if score debug mcaddons-menu matches 0 run tellraw @s {"text": "Debug mode disabled\n","italic":true, "color": "#CB0202"}
+execute if score debug mcaddons-menu matches 1 run tellraw @a {"text": "Debug mode enabled\n","italic":true, "color": "#00ff44"}
+execute if score debug mcaddons-menu matches 0 run tellraw @a {"text": "Debug mode disabled\n","italic":true, "color": "#CB0202"}
 
 execute if score treeex mcaddons-menu matches 0 run execute if score oreex mcaddons-menu matches 0 run execute if score debug mcaddons-menu matches 0 run execute if score hfurnace mcaddons-menu matches 0 run function game:delete_scores

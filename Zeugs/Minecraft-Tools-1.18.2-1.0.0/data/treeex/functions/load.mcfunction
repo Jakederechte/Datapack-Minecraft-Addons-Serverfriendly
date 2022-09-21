@@ -1,4 +1,4 @@
-#depends on treeex:book_schedule
+
 
 tellraw @a {"text": "Tree Excavation loadet", "color": "#00ff44"}
 

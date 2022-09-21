@@ -1,4 +1,4 @@
-#depends on oreex:book_schedule
+
 
 tellraw @a {"text": "Ore Excavation loadet", "color": "#00ff44"}
 
