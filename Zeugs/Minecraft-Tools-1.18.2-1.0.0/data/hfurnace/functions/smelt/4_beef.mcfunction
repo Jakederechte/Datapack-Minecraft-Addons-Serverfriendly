@@ -1,4 +1,4 @@
-
+#depends on hfurnace:smelt/5_porkchop
 
 execute as @a run execute if data entity @s Inventory[{id:"minecraft:beef"}] run scoreboard players set @s hfurnace-item 1
 

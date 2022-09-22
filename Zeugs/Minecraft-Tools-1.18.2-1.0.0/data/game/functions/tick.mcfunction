@@ -1,4 +1,5 @@
 #depends on treeex:tick
+#depends on oreex:tick
 
 execute if score tick mcaddons-menu matches 1 run execute as @a[team=!mcaddons-gotbook] run function mcaddons:book_generator
 

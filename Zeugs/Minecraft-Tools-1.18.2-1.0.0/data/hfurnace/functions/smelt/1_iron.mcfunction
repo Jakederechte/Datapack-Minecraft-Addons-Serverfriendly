@@ -1,4 +1,4 @@
-
+#depends on hfurnace:smelt/2_copper
 
 execute as @a run execute if data entity @s Inventory[{id:"minecraft:raw_iron"}] run scoreboard players set @s hfurnace-item 1
 

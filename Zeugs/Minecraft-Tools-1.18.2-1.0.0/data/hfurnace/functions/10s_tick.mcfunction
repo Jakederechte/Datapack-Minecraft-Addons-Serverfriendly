@@ -1,4 +1,5 @@
-
+#depends on hfurnace:smelt/1_iron
+#depends on self
 
 execute as @a run scoreboard players set @a hfurnace-item 0
 

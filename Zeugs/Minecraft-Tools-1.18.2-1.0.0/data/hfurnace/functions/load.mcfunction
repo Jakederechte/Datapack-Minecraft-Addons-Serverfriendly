@@ -1,4 +1,4 @@
-
+#depends on hfurnace:10s_tick
 
 scoreboard objectives add hfurnace-count dummy
 scoreboard objectives add hfurnace-run dummy

@@ -1,4 +1,4 @@
-#depends on treeex:clear_tree
+#depends on self
 
 
 #summon Marker around the closest marker to the "treeex-Main" Marker if there is a log

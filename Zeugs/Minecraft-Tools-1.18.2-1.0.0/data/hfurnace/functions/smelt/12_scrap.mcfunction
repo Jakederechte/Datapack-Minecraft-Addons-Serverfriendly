@@ -1,4 +1,4 @@
-
+#depemds on -
 
 execute as @a run execute if data entity @s Inventory[{id:"minecraft:ancient_debris"}] run scoreboard players set @s hfurnace-item 1
 

@@ -1,3 +1,5 @@
+#depends on -
+
 
 give @s minecraft:furnace
 

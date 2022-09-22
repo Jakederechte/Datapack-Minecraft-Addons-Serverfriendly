@@ -1,5 +1,11 @@
 #depends on treeex:delete_scores
 #depends on treeex:load
+#depends on oreex:delete_scores
+#depends on oreex:load
+#depends on hfurnace:delete_scores
+#depends on hfurnace:load
+#depends on game:delete_scores
+
 
 scoreboard players set tick mcaddons-menu 1
 

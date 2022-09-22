@@ -1,4 +1,4 @@
-
+#depends on -
 
 scoreboard objectives remove hfurnace-count
 scoreboard objectives remove hfurnace-run
