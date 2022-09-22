@@ -1,8 +1,12 @@
 
 
 scoreboard objectives add hfurnace-count dummy
-scoreboard players set @a hfurnace-fuel 0
+scoreboard objectives add hfurnace-run dummy
+scoreboard objectives add hfurnace-item dummy
+scoreboard players set @a hfurnace-run 0
 scoreboard players set @a hfurnace-count 0
-scoreboard players set run hfurnace-count 1
+scoreboard players set @a hfurnace-item 0
+
+schedule function hfurnace:10s_tick 1t
 
 tellraw @a {"text": "Hand Furnace loadet", "color": "#00ff44"}

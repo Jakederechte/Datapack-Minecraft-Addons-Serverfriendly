@@ -5,5 +5,3 @@ execute if score tick mcaddons-menu matches 1 run execute as @a[team=!mcaddons-g
 execute if score tick mcaddons-menu matches 1 run execute if score treeex mcaddons-menu matches 1 run function treeex:tick
 
 execute if score tick mcaddons-menu matches 1 run execute if score oreex mcaddons-menu matches 1 run function oreex:tick
-
-execute if score tick mcaddons-menu matches 1 run execute if score hfurnace mcaddons-menu matches 1 run function hfurnace:tick
