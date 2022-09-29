@@ -1,0 +1,20 @@
+### ToDo-List ###
+
+(x)-make crafting work again
+
+(x)-make a ToDo-List
+(x)-use functions like lumberjackaxe_give instead of writing it always out
+(x)-write on top of every file which it depends on (p.ex. lumberjackaxe_give) so you know when renaming where you have to change stuff like
+
+(x)-always correct spelling and grammar
+(x)-book update crafting
+
+(x)-look at the distance between player and marker and only "use" the nearest marker (don't chop all trees down) ??? what about four by four trees ???
+
+(x)-try to make it so that branches that are loosely connected are also removed
+
+(x)-make the crafting(recipe) shapeless
+
+()-try to understand everything and then rewrite it cleaner
+
+()-try to check if it's server compatible

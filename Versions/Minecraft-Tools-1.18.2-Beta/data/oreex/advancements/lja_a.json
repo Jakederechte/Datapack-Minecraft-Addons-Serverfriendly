@@ -1,0 +1,14 @@
+
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "oreex:lja_r_smithing"
+            }
+        }
+    },
+    "rewards": {
+        "function": "oreex:lja_ce"
+    }
+}

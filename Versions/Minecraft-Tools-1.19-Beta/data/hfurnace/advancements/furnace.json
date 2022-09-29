@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "hfurnace:furnace_recipe"
+            }
+        }
+    },
+    "rewards": {
+        "function": "hfurnace:furnace_crafted"
+    }
+}

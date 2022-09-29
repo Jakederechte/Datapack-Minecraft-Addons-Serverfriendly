@@ -1,0 +1,10 @@
+Hammer:
+
+(x)-Crafting recepies for all hamers
+(x)-create menu for hammers
+
+()-block detection for all blocks
+
+()-3x3 area destroy around mined block
+
+()-3x3 area facing at player

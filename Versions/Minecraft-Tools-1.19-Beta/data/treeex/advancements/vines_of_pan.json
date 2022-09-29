@@ -1,0 +1,14 @@
+
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "treeex:vines_of_pan_recipe"
+            }
+        }
+    },
+    "rewards": {
+        "function": "treeex:crafted_vines_of_pan"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:raw_copper"
+      },
+      {
+        "item": "minecraft:raw_iron"
+      },
+      {
+        "item": "minecraft:raw_gold"
+      },
+      {
+        "item": "minecraft:redstone"
+      },
+      {
+        "item": "minecraft:lapis_lazuli"
+      },
+      {
+        "item": "minecraft:emerald"
+      },
+      {
+        "item": "minecraft:diamond"
+      },
+      {
+        "item": "minecraft:quartz"
+      }
+    ],
+    "result": {
+      "item": "minecraft:knowledge_book"
+    }
+  }
