@@ -2,9 +2,9 @@
 This Pack combines many useful Tools for Minecraft, which can all be turned on and off separately.
 
 At the Moment there are these three Tools:
-  *Tree Excavation: Adds an Axe with which you can chop down entire Trees at once
-  *Ore Excavation: Adds a Pickaxe that allows you to mine entire veins of Ore at once
-  *Hand Furnace: Adds a Furnace that when offhand will melt your Ores and Food in the background
+  -Tree Excavation: Adds an Axe with which you can chop down entire Trees at once
+  -Ore Excavation: Adds a Pickaxe that allows you to mine entire veins of Ore at once
+  -Hand Furnace: Adds a Furnace that when offhand will melt your Ores and Food in the background
 
 At the moment we are still working on a Resourcepack for this Pack and on a 4th Tool
 
