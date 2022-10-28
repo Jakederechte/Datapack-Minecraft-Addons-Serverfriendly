@@ -1,0 +1,3 @@
+#depends on -
+
+give @s vine{display:{Name:'{"text":"Vines of Pan","color":"green","bold":true,"underlined":true}',Lore:['{"text":"This item contains the spirit of the trees","color":"dark_green"}','{"text":"through its unique way of crafting.","color":"dark_green"}','{"text":"It can be combined with a netherrite axe in the","color":"dark_green"}','{"text":"anvil to transfer this blessing to the axe.","color":"dark_green"}']},Enchantments:[{}]} 1

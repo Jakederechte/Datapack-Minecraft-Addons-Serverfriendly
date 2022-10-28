@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "hammer:goldr"
+            }
+        }
+    },
+    "rewards": {
+        "function": "hammer:goldcrafted"
+    }
+}
